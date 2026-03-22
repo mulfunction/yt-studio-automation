@@ -1,0 +1,26 @@
+
+> yt-studio-automation@1.0.0 download
+> node download-csv.js
+
+≡ƒÜÇ Starting YouTube Studio CSV Automation...
+Navigating to https://studio.youtube.com/channel/UCu6IZtHGs6bsh5Hue0jAQsQ/analytics/tab-overview/period-default/explore?entity_type=CHANNEL&entity_id=UCu6IZtHGs6bsh5Hue0jAQsQ&time_period=lifetime&explore_type=TABLE_AND_CHART&metric=ESTIMATED_UNIQUE_VIEWERS&granularity=DAY&t_metrics=ESTIMATED_UNIQUE_VIEWERS&t_metrics=SUBSCRIBERS_GAINED&t_metrics=SUBSCRIBERS_LOST&t_metrics=EXTERNAL_VIEWS&t_metrics=EXTERNAL_WATCH_TIME&t_metrics=SUBSCRIBERS_NET_CHANGE&t_metrics=TOTAL_ESTIMATED_EARNINGS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&dimension=VIDEO&o_column=ESTIMATED_UNIQUE_VIEWERS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC...
+Γ¥î Automation failed: page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://studio.youtube.com/channel/UCu6IZtHGs6bsh5Hue0jAQsQ/analytics/tab-overview/period-default/explore?entity_type=CHANNEL&entity_id=UCu6IZtHGs6bsh5Hue0jAQsQ&time_period=lifetime&explore_type=TABLE_AND_CHART&metric=ESTIMATED_UNIQUE_VIEWERS&granularity=DAY&t_metrics=ESTIMATED_UNIQUE_VIEWERS&t_metrics=SUBSCRIBERS_GAINED&t_metrics=SUBSCRIBERS_LOST&t_metrics=EXTERNAL_VIEWS&t_metrics=EXTERNAL_WATCH_TIME&t_metrics=SUBSCRIBERS_NET_CHANGE&t_metrics=TOTAL_ESTIMATED_EARNINGS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&dimension=VIDEO&o_column=ESTIMATED_UNIQUE_VIEWERS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC", waiting until "domcontentloaded"
+
+Closing browser...
+node:internal/process/promises:332
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+    at D:\Documents\Antigravity\automations\yt-studio-automation\download-csv.js:80:20 {
+  name: 'TimeoutError'
+}
+
+Node.js v25.8.1

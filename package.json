@@ -1,0 +1,16 @@
+{
+  "name": "yt-studio-automation",
+  "version": "1.0.0",
+  "description": "YouTube Studio Automation via Playwright",
+  "main": "download-csv.js",
+  "scripts": {
+    "start": "node download-csv.js",
+    "setup": "node setup-auth.js",
+    "download": "node download-csv.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.42.1"
+  }
+}

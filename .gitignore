@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+env/
+
+# Browser contexts (Playwright)
+user_data/
+downloads/
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
