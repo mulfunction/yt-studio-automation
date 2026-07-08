@@ -13,7 +13,7 @@ if (-not $nodePath) {
 $action = New-ScheduledTaskAction -Execute $nodePath -Argument "download-csv.js" -WorkingDirectory $scriptDir
 
 # Triggers daily at 9:00 AM (change as needed)
-$trigger = New-ScheduledTaskTrigger -Daily -At 9:00AM
+$trigger = New-ScheduledTaskTrigger -Daily -At 12:00PM
 
 $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable -RunOnlyIfNetworkAvailable
 
